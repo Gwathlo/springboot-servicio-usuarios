@@ -2,9 +2,9 @@ package com.formacionbdi.springboot.app.usuarios;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
-@ComponentScan({"com.formacionbdi.springboot.app.usuarios.commons.models.entity"})
+@EntityScan({"com.formacionbdi.springboot.app.commons.usuarios.models.entity"})
 @SpringBootApplication
 public class SpringbootServicioUsuariosApplication {
 
